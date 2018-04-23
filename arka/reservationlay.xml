@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/editText12"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="69dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Location"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/editText13"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editText12"
+        android:layout_marginTop="160dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Bus Name"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/editText14"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/editText12"
+        android:layout_marginBottom="208dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Time"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/editText15"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/editText12"
+        android:layout_marginBottom="104dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Bus Number"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="69dp"
+        android:layout_marginTop="82dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_marginTop="178dp"
+        android:text="TextView" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="225dp"
+        android:layout_marginEnd="26dp"
+        android:text="CheckedTextView" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_marginBottom="121dp"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="29dp"
+        android:layout_marginEnd="38dp"
+        android:text="Book" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/button9"
+        android:layout_marginStart="47dp"
+        android:text="Back" />
+</RelativeLayout>
